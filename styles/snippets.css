@@ -90,6 +90,10 @@
     flex-direction: column;
   }
 
+  .events-image {
+    order: 1;
+  }
+
   .events-text {
     order: 2;
   }

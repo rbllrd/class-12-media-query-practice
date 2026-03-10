@@ -73,6 +73,8 @@ nav menu li a {
 
   font-size: 1.4em;
   text-decoration: none;
+
+  box-sizing: border-box;
 }
 
 nav menu li a:hover {
