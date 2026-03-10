@@ -148,6 +148,9 @@
   .events-text {
     order: 1; /* show text first */
   }
+  .events-image {
+    order: 2; /* show image second */
+  }
 
 } /* end media query */
 
