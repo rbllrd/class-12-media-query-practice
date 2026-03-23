@@ -13,7 +13,7 @@
 /* assignments. Write your own code from scratch to help you learn it.         */
 
 /* -------------------------------------- */
-/* Fonts - add google font @import and font-family snippets here for future use 
+/* Fonts - add google font @import and font-family snippets here for future use
 
 */
 
@@ -124,12 +124,12 @@ nav menu li a:hover {
 
 .highlight-events {
   background-color: #efece5;
-  color: #000000;  
+  color: #000000;
 }
 
 .highlight-animals {
   background-color: #ecd7a7;
-  color: #000000;  
+  color: #000000;
 }
 
 .button {
@@ -148,12 +148,12 @@ nav menu li a:hover {
 
 .highlight-attractions {
   background-color: #efece5;
-  color: #000000;  
+  color: #000000;
 }
 
 .highlight-directions {
   background-color: #ecd7a7;
-  color: #000000;  
+  color: #000000;
 }
 
 /* -------------------------------------- */
@@ -217,4 +217,17 @@ iframe.ratio-16x9 {
 
 /* TODO:  add media query code here */
 
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  nav menu {
+    flex-direction: column;
+  }
 
+  .side-by-side {
+    flex-direction: column;
+    gap: 0;
+  }
+}
